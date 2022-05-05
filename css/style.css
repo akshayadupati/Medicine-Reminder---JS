@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Indie+Flower&family=Permanent+Marker&family=Shadows+Into+Light&display=swap");
+
+/* UTLITY CLASSES */
+
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  background-image: url("../images/calculator.jpg");
+  background-size: cover;
+  font-family: "Caveat", cursive;
+  font-size: 1.25em;
+}
+header {
+  text-align: center;
+  padding: 1em;
+  font-family: "Caveat", cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* TABLE STYLES */
+
+table {
+  width: 95% !important;
+  margin: auto !important;
+}
+table.table-bordered {
+  border: 1px solid black;
+}
+table.table-bordered > thead > tr > th {
+  border: 1px solid black;
+}
+table.table-bordered > tbody > tr > td {
+  border: 1px solid black;
+}
+
+/* STYLE FOR FORM ELEMENTS AND BUTTON */
+
+.formElement {
+  display: inline-block;
+  margin: 25px;
+}
+#btn {
+  padding: 10px 30px;
+  text-align: center;
+}
+.submitButton {
+  text-align: center;
+  padding: 10px;
+}
+input {
+  border-radius: 10%;
+}
